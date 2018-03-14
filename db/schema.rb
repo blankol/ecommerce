@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20180221164254) do
   end
 
   create_table "orders", force: :cascade do |t|
-    t.string "first_name"
+    t.string "first__name"
     t.string "last_name", null: false
     t.decimal "sub_total", precision: 15, scale: 2, null: false
     t.datetime "created_at", null: false
